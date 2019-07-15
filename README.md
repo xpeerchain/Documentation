@@ -1,6 +1,4 @@
-# XPeerchain documentation is now located at http://developers.xpeer.org
-
-## XPeerchain Technical White Paper
+# XPeerchain Technical White Paper
 
 - [English](TechnicalWhitePaper.md)
 - [Chinese](zh-CN/TechnicalWhitePaper.md)
