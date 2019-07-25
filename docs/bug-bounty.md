@@ -1,4 +1,7 @@
 # Bounty Program
+
+[中文简体](bug-bounty_zh.md)
+
 Nearly all projects are posted on the [XPeerchain Project Page](https://xpeer.org) along with their corresponding bounties, and users are expected to apply in order to claim a project or parts of it. This process applies to the wiki and to the NAT Bug Bounty Program. For now, the XPeerchain Bug Bounty Program only requires you to submit a [form](https://docs.google.com/forms/d/e/1FAIpQLScaCeODU26maPJIuyCkX6Lsa0A5Xi2AZ_z-mvKlHmd89_CaXQ/viewform) with the relevant information.
 
 Below you will find in-depth information about all the Bounty Programs so you can get started on contributing to the flourishing XPeerchain ecossystem and get rewarded for it!
