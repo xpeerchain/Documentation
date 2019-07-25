@@ -1,4 +1,4 @@
-# XPeerchain Technical White Paper
+# XPeerchain Documentation
 
 - [English](TechnicalWhitePaper.md)
 - [Chinese](zh-CN/TechnicalWhitePaper.md)
