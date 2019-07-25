@@ -1,48 +1,55 @@
-# XPeerChain漏洞悬赏计划
-## XPeerChain漏洞悬赏计划
-`XPeerChain`漏洞悬赏计划旨在提高整个XPC生态的安全性，为构建`XPC`良性生态提供保障。`XPC`漏洞悬赏计划将为发现并提交漏洞的用户提供奖励，该计划由`XPC`技术委员会组织实施，`XPC`技术团队与社区用户共同参与。`XPC`技术委员会鼓励社区用户按如下流程提交安全漏洞，并获得相应回馈，共同参与`XPC`良性生态建设。
+# Bounty Program
+Nearly all projects are posted on the [XPeerchain Project Page](https://xpeer.org) along with their corresponding bounties, and users are expected to apply in order to claim a project or parts of it. This process applies to the wiki and to the NAT Bug Bounty Program. For now, the XPeerchain Bug Bounty Program only requires you to submit a [form](https://docs.google.com/forms/d/e/1FAIpQLScaCeODU26maPJIuyCkX6Lsa0A5Xi2AZ_z-mvKlHmd89_CaXQ/viewform) with the relevant information.
 
-## 漏洞悬赏范围
-漏洞悬赏范围包括**XPC主网、XPC测试网、nebPay、Web钱包、neb.js**等常规漏洞悬赏与合约间调用功能等专项漏洞悬赏。
+Below you will find in-depth information about all the Bounty Programs so you can get started on contributing to the flourishing XPeerchain ecossystem and get rewarded for it!
 
-## 漏洞评定标准
-基于影响和可能性的[OWASP](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology)风险评级模型计算的严重程度，`XPC`技术委员会将根据漏洞的危害程度和可能的辐射范围两个维度评估奖励金额。最终奖励金额由`XPC`技术委员会自行确定。
+## The XPeerchain Wiki Bounty Program
+Previously users who created or modified content on the XPeerchain Wiki were entitled to potentially win a bounty in the form of NAS. Nowadays, the process is quite different.
 
-![](res/safety-level.png)
+To qualify for the wiki bounty, go to the aforementioned project page and search for "wiki," or simply click [here](https://xpeer.org/search?q=wiki) to see all the available listings.
 
-**危害程度：**
-- 高：影响资产安全的漏洞
-- 中：影响系统稳定性的漏洞
-- 低：其它既不影响资产安全又不影响系统稳定性的漏洞
 
-**可能的辐射范围：**
-- 高：所有人只要执行操作即可复现该漏洞，无论当前是否已经发现
-- 中：只有特定人群可复现（如只是开发者才可能遇到、普通用户不受影响的漏洞）
-- 低：覆盖面小于1%特定人群，如罕见Android机型；或个别偶发现象
+## The XPeerchain Bug Bounty Program
+The XPeerchain Bug Bounty aims to improve the security of XPeerchain Ecosystem, ensuring the establishment of a benign XPeerchain ecosystem. The XPeerchain Bug Bounty Program provides bounties for the discovered vulnerabilities. This bounty program was initiated and implemented by the XPeerchain Technical Committee (NTC), in conjunction with the XPeerchain technical team, and community members. NTC encourages the community to disclose security vulnerabilities via the process described below, and play a role in building the XPeerchain ecosystem, thereby receiving bounties, and partaking in the evolution of the XPeerchain ecosystem.
 
-## 漏洞奖励金额
-为保证报告者获得稳定预期收益，悬赏奖励金额将以美元为标准发放等额NAS。
-奖励金额分为5档：
-- 特别危险：1000+美元 +  上不封顶
-- 高危：500+美元 
-- 中危：250 + 美元
-- 低危：100 + 美元
-- 改进：30+美元 
+### Bug Category
+The Bug Bounty Program divides the bug bounties into 2 categories, common bug bounty and special bug bounty. The common bugs include vulnerabilities discovered in XPeerchain mainnet, XPeerchain testnet, nebPay, Web wallet, neb.js and others, while the special bugs include vulnerabilities found in the inter-contract call function, etcetera.
 
-注：`XPC`测试网专项漏洞悬赏（如合约间调用功能测试网漏洞悬赏）价位等比上调，并以美元为标准发放等额NAS
+### Eligibility 
+The XPeerchain Technical Committee will evaluate reward sizes according to the severity calculated by [OWASP](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology) Risk Rating Method based on **Impact** and **Likelihood**. However, final rewards are determined at the sole discretion of the committee. 
 
-注：
-> 1.请确保填写内容准确性，悬赏奖金的发放将以此次表单提交内容为依据；
+![Image 1](res/safety-level.png)
 
-> 2.如有多人发现了相同的漏洞，最终以收到提交漏洞的先后次序为准，社区用户就漏洞问题的讨论不作为漏洞提交依据，仍需提交表单。
+**Impact:**
+- High: Bugs affecting asset security.
+- Medium: Bugs affecting system stability.
+- Low: Other bugs that do not affect asset security and do not affect system stability.
 
-## 注意事项
-1.`XPC`漏洞悬赏计划长期有效，最终解释权归`XPC`技术委员会所有，`XPC`技术委员会保留单方面对本次漏洞悬赏计划的范围、标准、奖励金额等做出调整、取消的权利；
+**Likelihood:**
+- High: The bug can be discovered by anyone who performs an operation, regardless of whether or not the bug has been found.
+- Medium: Only certain people can discover it (such as a bug that only developers encounter, ordinary users are not affected.)
+- Low: Covers less than 1% specific population, such as certain rare Android models; or any other exceptional cases. 
 
-2.报告者提交悬赏申请后，`XPC`技术委员会会进行确认并对提交漏洞进行跟进评估，评估时间将根据问题的严重程度及修复难度确定，评估结果会第一时间将以邮件形式反馈给对应报告者；
+### Amount:
+To ensure the bug reporter obtains a stable expected reward, the amount in US dollars will be issued in equivalent NAS.
+The reward amount is divided into 5 categories:
 
-3.为避免漏洞被利用，请报告者将悬赏申请仅提交至漏洞悬赏入口；
+> - Critical: US$1,000 or more (No upper limit)
+> - High: US$500 or more
+> - Medium: US$250 or more
+> - Low: US$100 or more
+> - Improvement: US$30 or more
 
-4.报告者于发现漏洞至提交悬赏申请后的30天内负有保密义务，不得向任何第三方透露漏洞，该保密期限可以由`XPC`单方面延长。如报告者违反保密义务，导致`XPC`或其用户遭受任何损害的，应当赔偿所有相关损失；
+Note: The XPeerchain testnet special vulnerability reward (such as one for testnet inter-contract call function) has been increased accordingly, and the equivalent US dollars are issued in NAS.
 
-5.`XPC`技术委员会鼓励社区用户通过`XPC`公共讨论组同`XPC`技术团队、其他社区用户进行交流与讨论，也鼓励社区用户积极参与漏洞的修复。欢`XPC`迎广大社区用户加入[XPC 公共讨论组](https://lists.nebulas.io/cgi-bin/mailman/listinfo)。
+### Additional notes:
+> 1. The XPeerchain Bug Bounty Program is long-standing. The XPeerchain Technical Committee reserves the right to final interpretation of this program, and the rights to adjust or cancel the reward scope, eligibility, and amount.
+> 2. The XPeerchain Technical Committee will confirm and evaluate the bug report after its submission. The evaluation time will depend on the severity of the problem and the difficulty of its resolution. The result of the evaluation will be sent to its reporter by email as soon as possible. 
+> 3. To avoid the exploitation of bugs, reporters are required to submit the bug bounty application using the [proper forms](https://docs.google.com/forms/d/e/1FAIpQLScaCeODU26maPJIuyCkX6Lsa0A5Xi2AZ_z-mvKlHmd89_CaXQ/viewform). 
+> 4. Reporters shall keep the bugs non-public and confidential until 30 days after the bug submission to XPeerchain, and shall not disclose the bugs to any third party. Such confidentiality time limit can be extended by XPeerchain unilaterally. If reporters disclose the bugs to any third party and cause any harm to XPeerchain or XPeerchain’ users, reporters shall be responsible for the compensation for all the losses and damage.
+> 5. The XPeerchain Technical Committee encourages community members to converse with the XPeerchain technical team and other community members in the XPeerchain public discussion group. We also encourage our community members to join us in fixing these bugs. [Join our XPeerchain maillist](https://lists.xpeer.org/cgi-bin/mailman/listinfo)!
+
+## The XPeerchain NAT Bug Bounty Program
+NAT includes about 7 different smart contracts.
+
+For bugs pertaining the NAT smart contracts, you may go [here](https://xpeer.org/project/147) to claim your bounty. Do note that you will still have to fill in the following [form](https://docs.google.com/forms/d/e/1FAIpQLScaCeODU26maPJIuyCkX6Lsa0A5Xi2AZ_z-mvKlHmd89_CaXQ/viewform) detailing your bug, after claiming, in order to become elligible for the bounty.
