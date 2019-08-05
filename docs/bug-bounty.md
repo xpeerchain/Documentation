@@ -2,7 +2,7 @@
 
 [中文简体](bug-bounty_zh.md)
 
-Nearly all projects are posted on the [XPeerchain Project Page](https://xpeer.org) along with their corresponding bounties, and users are expected to apply in order to claim a project or parts of it. This process applies to the wiki and to the NAT Bug Bounty Program. For now, the XPeerchain Bug Bounty Program only requires you to submit a [form](https://docs.google.com/forms/d/e/1FAIpQLScaCeODU26maPJIuyCkX6Lsa0A5Xi2AZ_z-mvKlHmd89_CaXQ/viewform) with the relevant information.
+Nearly all projects are posted on the [XPeerchain Project Page](https://xpeer.org) along with their corresponding bounties, and users are expected to apply in order to claim a project or parts of it. This process applies to the wiki and to the NAT Bug Bounty Program. For now, the XPeerchain Bug Bounty Program only requires you to submit a form with the relevant information.
 
 Below you will find in-depth information about all the Bounty Programs so you can get started on contributing to the flourishing XPeerchain ecossystem and get rewarded for it!
 
@@ -19,7 +19,7 @@ The XPeerchain Bug Bounty aims to improve the security of XPeerchain Ecosystem, 
 The Bug Bounty Program divides the bug bounties into 2 categories, common bug bounty and special bug bounty. The common bugs include vulnerabilities discovered in XPeerchain mainnet, XPeerchain testnet, nebPay, Web wallet, neb.js and others, while the special bugs include vulnerabilities found in the inter-contract call function, etcetera.
 
 ### Eligibility 
-The XPeerchain Technical Committee will evaluate reward sizes according to the severity calculated by [OWASP](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology) Risk Rating Method based on **Impact** and **Likelihood**. However, final rewards are determined at the sole discretion of the committee. 
+The XPeerchain Technical Committee will evaluate reward sizes according to the severity calculated by OWASP Risk Rating Method based on **Impact** and **Likelihood**. However, final rewards are determined at the sole discretion of the committee. 
 
 ![Image 1](res/safety-level.png)
 
@@ -48,11 +48,11 @@ Note: The XPeerchain testnet special vulnerability reward (such as one for testn
 ### Additional notes:
 > 1. The XPeerchain Bug Bounty Program is long-standing. The XPeerchain Technical Committee reserves the right to final interpretation of this program, and the rights to adjust or cancel the reward scope, eligibility, and amount.
 > 2. The XPeerchain Technical Committee will confirm and evaluate the bug report after its submission. The evaluation time will depend on the severity of the problem and the difficulty of its resolution. The result of the evaluation will be sent to its reporter by email as soon as possible. 
-> 3. To avoid the exploitation of bugs, reporters are required to submit the bug bounty application using the [proper forms](https://docs.google.com/forms/d/e/1FAIpQLScaCeODU26maPJIuyCkX6Lsa0A5Xi2AZ_z-mvKlHmd89_CaXQ/viewform). 
+> 3. To avoid the exploitation of bugs, reporters are required to submit the bug bounty application using the proper forms. 
 > 4. Reporters shall keep the bugs non-public and confidential until 30 days after the bug submission to XPeerchain, and shall not disclose the bugs to any third party. Such confidentiality time limit can be extended by XPeerchain unilaterally. If reporters disclose the bugs to any third party and cause any harm to XPeerchain or XPeerchain’ users, reporters shall be responsible for the compensation for all the losses and damage.
 > 5. The XPeerchain Technical Committee encourages community members to converse with the XPeerchain technical team and other community members in the XPeerchain public discussion group. We also encourage our community members to join us in fixing these bugs. [Join our XPeerchain maillist](https://lists.xpeer.org/cgi-bin/mailman/listinfo)!
 
 ## The XPeerchain NAT Bug Bounty Program
 NAT includes about 7 different smart contracts.
 
-For bugs pertaining the NAT smart contracts, you may go [here](https://xpeer.org/project/147) to claim your bounty. Do note that you will still have to fill in the following [form](https://docs.google.com/forms/d/e/1FAIpQLScaCeODU26maPJIuyCkX6Lsa0A5Xi2AZ_z-mvKlHmd89_CaXQ/viewform) detailing your bug, after claiming, in order to become elligible for the bounty.
+For bugs pertaining the NAT smart contracts, you may go [here](https://xpeer.org/project/147) to claim your bounty. Do note that you will still have to fill in the following form detailing your bug, after claiming, in order to become elligible for the bounty.
