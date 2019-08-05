@@ -19,7 +19,7 @@ The XPeerchain Bug Bounty aims to improve the security of XPeerchain Ecosystem, 
 The Bug Bounty Program divides the bug bounties into 2 categories, common bug bounty and special bug bounty. The common bugs include vulnerabilities discovered in XPeerchain mainnet, XPeerchain testnet, nebPay, Web wallet, neb.js and others, while the special bugs include vulnerabilities found in the inter-contract call function, etcetera.
 
 ### Eligibility 
-The XPeerchain Technical Committee will evaluate reward sizes according to the severity calculated by OWASP Risk Rating Method based on **Impact** and **Likelihood**. However, final rewards are determined at the sole discretion of the committee. 
+The XPeerchain Technical Committee will evaluate reward sizes according to the severity calculated by [OWASP](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology) Risk Rating Method based on **Impact** and **Likelihood**. However, final rewards are determined at the sole discretion of the committee. 
 
 ![Image 1](res/safety-level.png)
 
